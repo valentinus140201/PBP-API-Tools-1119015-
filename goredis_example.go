@@ -31,7 +31,7 @@ func getDataRedis(con *redis.Client, key string) {
 
 func TestGoRedis() {
 
-	var redisHost = "localhost:6739"
+	var redisHost = "localhost:6379"
 	var redisPassword = ""
 
 	con := newRedisClient(redisHost, redisPassword)
